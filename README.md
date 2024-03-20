@@ -1,14 +1,14 @@
 ![alt text](https://github.com/Eugocode/US-Coffee-Market-Analysis/blob/main/US%20Coffee%20Market%20Report.png)
 
-# Analysis of US Coffee Market
+# Analysis of US Coffee Market 🍵
 
 by: Dleamnor Euraze Cawaling
 
 ## About this Project
 
-This project aims to provide an exploratory report providing a data-driven strategy for a group of investors breaking into the US coffee market. They would like to leverage insights from "The Great American Coffee Taste Test" to help them in starting their first coffee shop.
+This project aims to provide an exploratory report offering a data-driven strategy for a group of investors breaking into the US coffee market. They seek to leverage insights from "The Great American Coffee Taste Test" to assist in launching their first coffee shop.
 
-Specifically, they wanted to answer the following questions:
+Specifically, they aim to answer the following questions:
 
 1. **Target audience:** What type of customer should we target, and what are their preferences?
 2. **Product offering:** What types of coffee beans and drinks should we offer?
@@ -18,27 +18,31 @@ Specifically, they wanted to answer the following questions:
 
 The data used for this analysis came from _"The Great Amercan Coffee Taste Test",_ conducted by YouTube coffee expert James Hoffmann and Cometter. Approximately 4,000 American responded to the survey.
 
-Source: https://mavenanalytics.io/challenges/maven-coffee-challenge/30
+Source: [Maven Coffee Challenge](https://mavenanalytics.io/challenges/maven-coffee-challenge/30)
 
 ## Methodology
 
 _Tools used: PowerBI and Figma_
 
-After gathering the requirements and acquiring the dataset. I checked for data quality issues by checking the data type, missing values, duplicates, etc.There are a lot of nulls in the dataset, so I decided to not drop or do some imputations on null values as they may greatly affect the result but instead I focus on gaining insights from available data.
+After gathering the requirements and acquiring the dataset, I checked for data quality issues by examining data types, missing values, duplicates, etc. Given the presence of numerous nulls in the dataset, I opted not to drop or impute null values as they could significantly impact the results. Instead, I focused on gaining insights from the available data.
 
-Then I did some feature selection, wherein I selected relevant variables for my analysis for each of the objectives. Then, I did some data aggregation by adding some measures that are essential for displaying the necessary data.
+Next, I performed feature selection by identifying relevant variables for analysis based on each objective. I then conducted data aggregation by creating essential measures to display the necessary data.
 
-To identify the target customers, since this is a coffee shop. I have chosen those respondents who goes to cafe to drink coffee. Based on those respondents who go to cafe, I then checked their demographics.
+To identify the target customers, I selected respondents who go to cafes to drink coffee. From this subset, I analyzed their demographics (Gender, Age, Educational Background, Employment Status, Ethnicity/Race, Working Set-up).
 
-To help the investors decide on the products to offer, I did exploratory data analysis on different variables such as "Favorite Coffee Drink", "Additives", "Coffee Strength", "Coffee Flavor", "Roast Level" and "Amount of Caffein". From these I ranked each of them and identify the top favorites for each category.
+For product offering recommendations, I conducted exploratory data analysis on variables such as "Favorite Coffee Drink," "Additives," "Coffee Strength," "Coffee Flavor," "Roast Level," and "Amount of Caffeine." Based on this analysis, I ranked each category to identify top favorites.
 
-To help them with their pricing strategy, I identified the average monthly spending on coffee, and the maximum coffee price tolerance per cup.
+To assist with the pricing strategy, I determined the average monthly spending on coffee and the maximum price tolerance per cup.
 
 ## Key Insights and Recommendations
 
-**Target Customers:** People who typically drinks coffee at a cafe are mostly males, ages 25-34 years old, full-time employee, are White/Caucasians, working from home and have a bachelor's degree.
+**Target Customers:** Based on the data analysis, the typical demographic profile of individuals who typically drink coffee at a cafe includes males aged 25-34, employed full-time, of Caucasian ethnicity, working from home, and holding a bachelor's degree.
 
-**Product Offering:** The most favorite coffee drink is Pour Over followed by Latte, for Flavor it is Fruity. More than half of the respondents prefer their coffee black with no additives, this explain why there are 91% who prefers a full caffeine coffee and a coffee strength of somewhat strong. However, most people who like to add additives likes to add milk, dairy alternative, and coffee creamer on their coffee.
-For roast level it is light.
+**Product Offering:**
+Offer a variety of coffee drinks with an emphasis on Pour Over and Latte, as these are the most favored options. Also, ensure to include options for black coffee, as over half of respondents prefer their coffee without additives and wants them to be full caffeine. However, offer a selection of milk, dairy alternatives, and coffee creamer for those who prefer to customize their drinks.
 
-**Pricing Strategy:** Considering the average monthly coffee spending of $20-$40 and maximum price tolerance per cup of $8-$10, it's essential to offer a pricing structure that aligns with these parameters while maximizing revenue. My recommendation is to offer standard coffee options within $8-$10 range to accomodate customers with lower price tolerance. Also, introduce premium blends or drinks priced slightly higher, around $10-$15 or more, to appeal to those seeking a unique or higher-quality experience. In this way you can mazimize your revenue, while still accomodating a lot of customers.
+In addition to that offer fruity flavor as this is the preferred flavor among respondents. Consider featuring different fruity blends or flavored syrups to enhance the taste experience. Moreover, consider offering a range of other flavor options to cater to different taste preferences, such as chocolatey, full bodied, bright and nutty as these are next to the rank.
+
+Also, don't forget to ensure that significant portion of the coffee offerings align with their roast level preference which is light or medium.
+
+**Pricing Strategy:** Given the average monthly coffee spending of $20-$40 and a maximum price tolerance per cup of $8-$10, I recommend offering standard coffee options within the $8-$10 range to accommodate customers with lower price tolerance. Additionally, introducing premium blends or drinks priced slightly higher, around $10-$15 or more, can appeal to those seeking a unique or higher-quality experience. This strategy maximizes revenue while catering to a broad customer base.
