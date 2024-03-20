@@ -26,7 +26,7 @@ _Tools used: PowerBI and Figma_
 
 After gathering the requirements and acquiring the dataset, I checked for data quality issues by examining data types, missing values, duplicates, etc. Given the presence of numerous nulls in the dataset, I opted not to drop or impute null values as they could significantly impact the results. Instead, I focused on gaining insights from the available data.
 
-Next, I performed feature selection by identifying relevant variables for analysis based on each objective. I then conducted data aggregation by creating essential measures to display the necessary data.
+Next, I performed feature selection by identifying relevant variables for analysis based on each objective. I then conducted feature engineering by creating essential measures to display the appropriate data.
 
 To identify the target customers, I selected respondents who go to cafes to drink coffee. From this subset, I analyzed their demographics (Gender, Age, Educational Background, Employment Status, Ethnicity/Race, Working Set-up).
 
