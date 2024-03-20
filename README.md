@@ -2,8 +2,8 @@
 
 # Analysis of US Coffee Market 🍵
 
-by: Dleamnor Euraze Cawaling
-
+_by: Dleamnor Euraze Cawaling
+_
 ## About this Project
 
 This project aims to provide an exploratory report offering a data-driven strategy for a group of investors breaking into the US coffee market. They seek to leverage insights from "The Great American Coffee Taste Test" to assist in launching their first coffee shop.
